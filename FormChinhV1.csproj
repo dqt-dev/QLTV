@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9571F9A5-3C73-4788-A380-9D0D6F475304}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FormChinhV1</RootNamespace>
+    <AssemblyName>FormChinhV1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlBC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlBC.Designer.cs">
+      <DependentUpon>UserControlBC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlHome.Designer.cs">
+      <DependentUpon>UserControlHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlMuon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlMuon.Designer.cs">
+      <DependentUpon>UserControlMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlInfo.Designer.cs">
+      <DependentUpon>UserControlInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlPass.Designer.cs">
+      <DependentUpon>UserControlPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlQLNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlQLNV.Designer.cs">
+      <DependentUpon>UserControlQLNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlQLTL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlQLTL.Designer.cs">
+      <DependentUpon>UserControlQLTL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlQLĐG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlQLĐG.Designer.cs">
+      <DependentUpon>UserControlQLĐG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlTra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlTra.Designer.cs">
+      <DependentUpon>UserControlTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlTTCN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlTTCN.Designer.cs">
+      <DependentUpon>UserControlTTCN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlXLĐG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlXLĐG.Designer.cs">
+      <DependentUpon>UserControlXLĐG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ĐăngNhập.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ĐăngNhập.Designer.cs">
+      <DependentUpon>ĐăngNhập.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlBC.resx">
+      <DependentUpon>UserControlBC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlHome.resx">
+      <DependentUpon>UserControlHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlMuon.resx">
+      <DependentUpon>UserControlMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlInfo.resx">
+      <DependentUpon>UserControlInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlPass.resx">
+      <DependentUpon>UserControlPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlQLNV.resx">
+      <DependentUpon>UserControlQLNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlQLTL.resx">
+      <DependentUpon>UserControlQLTL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlQLĐG.resx">
+      <DependentUpon>UserControlQLĐG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTra.resx">
+      <DependentUpon>UserControlTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTTCN.resx">
+      <DependentUpon>UserControlTTCN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlXLĐG.resx">
+      <DependentUpon>UserControlXLĐG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ĐăngNhập.resx">
+      <DependentUpon>ĐăngNhập.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tailieu48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tailieu32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\docgia48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhanvien48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baocao48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Themtailieu48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Themtailieu32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xoatailieu32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\docgia32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baocao32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\150px-Logo_dhbkdn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chuy32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chitiet32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thuvien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adduser32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhanvien32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookdung64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-button-vector-274787 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-button-vector-274787 %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaperflare.com_wallpaper %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a-1508382581 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaperflare.com_wallpaper %281%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-icon-vector %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-icon-vector-illustration %281%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
